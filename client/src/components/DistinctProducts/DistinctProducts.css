@@ -1,0 +1,27 @@
+.distinct-product-container {
+    width: 80%;
+    margin: 2em auto;
+  }
+  
+  .distinct-product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .distinct-product-table th,
+  .distinct-product-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .distinct-product-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .distinct-product-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+
+  

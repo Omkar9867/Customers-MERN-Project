@@ -1,0 +1,44 @@
+.transaction-container {
+    margin: 20px;
+}
+
+
+.transaction-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.transaction-table th, .transaction-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+
+.pagination-btn {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination-btn:hover {
+    background-color: #45a049;
+}
+
+.pagination-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    margin-left: 10px;
+    font-weight: bold;
+}
